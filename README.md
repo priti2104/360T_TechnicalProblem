@@ -11,13 +11,15 @@ The requirements are as follows:
 5. both players should run in the same java process (strong requirement)
 
 Below is the shell script to start the program:
+
 #!/bin/bash
 
 cd D:/Workspace/360T_Problem/TwoWayPlayerCommunication/target
 
 java -cp TwoWayPlayerCommunication-0.0.1-SNAPSHOT.jar com.Communication.TwoWayPlayerCommunication.App
 
-To run the shell script
+To run the shell script:
+
 chmod +x PlayerStartCommunication.sh
 ./PlayerStartCommunication.sh
 
